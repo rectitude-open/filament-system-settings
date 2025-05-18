@@ -65,27 +65,27 @@ class FilamentSystemSettingsServiceProvider extends PackageServiceProvider
     public function packageBooted(): void
     {
         // Asset Registration
-        FilamentAsset::register(
-            $this->getAssets(),
-            $this->getAssetPackageName()
-        );
+        // FilamentAsset::register(
+        //     $this->getAssets(),
+        //     $this->getAssetPackageName()
+        // );
 
-        FilamentAsset::registerScriptData(
-            $this->getScriptData(),
-            $this->getAssetPackageName()
-        );
+        // FilamentAsset::registerScriptData(
+        //     $this->getScriptData(),
+        //     $this->getAssetPackageName()
+        // );
 
         // Icon Registration
-        FilamentIcon::register($this->getIcons());
+        // FilamentIcon::register($this->getIcons());
 
         // Handle Stubs
-        if (app()->runningInConsole()) {
-            foreach (app(Filesystem::class)->files(__DIR__ . '/../stubs/') as $file) {
-                $this->publishes([
-                    $file->getRealPath() => base_path("stubs/filament-system-settings/{$file->getFilename()}"),
-                ], 'filament-system-settings-stubs');
-            }
-        }
+        // if (app()->runningInConsole()) {
+        //     foreach (app(Filesystem::class)->files(__DIR__ . '/../stubs/') as $file) {
+        //         $this->publishes([
+        //             $file->getRealPath() => base_path("stubs/filament-system-settings/{$file->getFilename()}"),
+        //         ], 'filament-system-settings-stubs');
+        //     }
+        // }
 
         // Testing
         Testable::mixin(new TestsFilamentSystemSettings);
@@ -103,8 +103,8 @@ class FilamentSystemSettingsServiceProvider extends PackageServiceProvider
     {
         return [
             // AlpineComponent::make('filament-system-settings', __DIR__ . '/../resources/dist/components/filament-system-settings.js'),
-            Css::make('filament-system-settings-styles', __DIR__ . '/../resources/dist/filament-system-settings.css'),
-            Js::make('filament-system-settings-scripts', __DIR__ . '/../resources/dist/filament-system-settings.js'),
+            // Css::make('filament-system-settings-styles', __DIR__ . '/../resources/dist/filament-system-settings.css'),
+            // Js::make('filament-system-settings-scripts', __DIR__ . '/../resources/dist/filament-system-settings.js'),
         ];
     }
 
@@ -148,7 +148,7 @@ class FilamentSystemSettingsServiceProvider extends PackageServiceProvider
     protected function getMigrations(): array
     {
         return [
-            'create_filament-system-settings_table',
+            'create_settings_table',
         ];
     }
 }
