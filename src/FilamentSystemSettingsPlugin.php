@@ -6,6 +6,7 @@ namespace RectitudeOpen\FilamentSystemSettings;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;
+use RectitudeOpen\FilamentSystemSettings\Pages\SystemSettingsPage;
 
 class FilamentSystemSettingsPlugin implements Plugin
 {
@@ -21,7 +22,10 @@ class FilamentSystemSettingsPlugin implements Plugin
 
     public function boot(Panel $panel): void
     {
-        //
+        $panel
+            ->pages([
+                config('filament-system-settings.system_settings_page', SystemSettingsPage::class),
+            ]);
     }
 
     public static function make(): static
