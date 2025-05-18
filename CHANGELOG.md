@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.0.1](https://github.com/rectitude-open/filament-system-settings/compare/v1.0.0...v1.0.1) (2025-05-18)
+
+
+### Bug Fixes
+
+* register pages in the correct location ([6c0e59c](https://github.com/rectitude-open/filament-system-settings/commit/6c0e59c891515394e8a78d50933783337a2c1549))
+
+
+### Miscellaneous Chores
+
+* style fix ([41e6285](https://github.com/rectitude-open/filament-system-settings/commit/41e628539995debb824d5fe01f7aee038c62cdfa))
+
 ## 1.0.0 (2025-05-18)
 
 
