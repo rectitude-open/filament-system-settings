@@ -17,15 +17,15 @@ class FilamentSystemSettingsPlugin implements Plugin
 
     public function register(Panel $panel): void
     {
-        //
-    }
-
-    public function boot(Panel $panel): void
-    {
         $panel
             ->pages([
                 config('filament-system-settings.system_settings_page', SystemSettingsPage::class),
             ]);
+    }
+
+    public function boot(Panel $panel): void
+    {
+
     }
 
     public static function make(): static
