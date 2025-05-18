@@ -1,4 +1,4 @@
-# This is my package filament-system-settings
+# Filament System Settings
 
 ![Do not use](https://img.shields.io/badge/Under%20development-Don't%20use-red)
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/rectitude-open/filament-system-settings.svg?style=flat-square)](https://packagist.org/packages/rectitude-open/filament-system-settings)
@@ -6,7 +6,12 @@
 [![PHPStan](https://img.shields.io/badge/PHPStan-level%205-brightgreen)](https://phpstan.org/)
 [![Total Downloads](https://img.shields.io/packagist/dt/rectitude-open/filament-system-settings.svg?style=flat-square)](https://packagist.org/packages/rectitude-open/filament-system-settings)
 
-This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
+Filament System Settings is a user-friendly plugin that provides a comprehensive system settings page for your Filament admin panel, It includes several preset panels for managing application configuration, mail settings, security options, and more. 
+
+The package is built on top of the [Filament Spatie Laravel Settings Plugin](https://github.com/filamentphp/spatie-laravel-settings-plugin) package.
+
+This package is also a standalone part of a CMS project: [FilaPress](https://github.com/rectitude-open/filapress).
+
 
 ## Installation
 
@@ -29,25 +34,39 @@ You can publish the config file with:
 php artisan vendor:publish --tag="filament-system-settings-config"
 ```
 
-Optionally, you can publish the views using
-
-```bash
-php artisan vendor:publish --tag="filament-system-settings-views"
-```
-
 This is the contents of the published config file:
 
 ```php
 return [
+    'system_settings' => RectitudeOpen\FilamentSystemSettings\Settings\SystemSettings::class,
+    'system_settings_page' => RectitudeOpen\FilamentSystemSettings\Pages\SystemSettingsPage::class,
 ];
 ```
 
 ## Usage
 
+The package provides a System Settings Page that allows you to manage system settings in your Filament admin panel. 
+
+To use the page provided by this package, you need to register it in your Panel Provider first.
+
 ```php
-$filamentSystemSettings = new RectitudeOpen\FilamentSystemSettings();
-echo $filamentSystemSettings->echoPhrase('Hello, RectitudeOpen!');
+namespace App\Providers\Filament;
+
+use RectitudeOpen\FilamentSystemSettings\FilamentSystemSettingsPlugin;
+
+class AdminPanelProvider extends PanelProvider
+{
+    public function panel(Panel $panel): Panel
+    {
+        return $panel
+            ->plugins([
+                FilamentSystemSettingsPlugin::make()
+            ]);
+    }
+}    
 ```
+
+For more advanced setting features, please refer to the documentation of the [Laravel Settings](https://github.com/spatie/laravel-settings) package.
 
 ## Testing
 
