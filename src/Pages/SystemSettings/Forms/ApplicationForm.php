@@ -14,11 +14,14 @@ class ApplicationForm
     public static function get()
     {
         return [
-            TextInput::make('site_name')
-                ->label('Site Name')
-                ->autofocus()
-                ->required()
-                ->columnSpanFull(),
+            Grid::make()->schema([
+                TextInput::make('site_name')
+                    ->label('Site Name')
+                    ->autofocus()
+                    ->required(),
+                TextInput::make('site_url')
+                    ->label('Site URL'),
+            ]),
             TextInput::make('site_title')
                 ->label('Site Title')
                 ->columnSpanFull(),
