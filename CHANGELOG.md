@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.1.0](https://github.com/rectitude-open/filament-system-settings/compare/v1.0.1...v1.1.0) (2025-06-22)
+
+
+### Features
+
+* add more translations ([6d21964](https://github.com/rectitude-open/filament-system-settings/commit/6d21964ca1b53c9e4727d9f7145b3ef6942c4d70))
+* add navigation sorting and icon configuration to system settings ([8e0548f](https://github.com/rectitude-open/filament-system-settings/commit/8e0548f4fc36ca287b1293525fc6c60a216bc3e4))
+* add site_url field to settings and application form ([fa31453](https://github.com/rectitude-open/filament-system-settings/commit/fa31453fb5b484c9b6e16d1d47447cda1e3d6c3e))
+
+
+### Bug Fixes
+
+* add missing namespace backslashes in configuration files ([cb76e94](https://github.com/rectitude-open/filament-system-settings/commit/cb76e949d18ac48074cfb3ecbe57318860a732de))
+* update README and service provider to remove unnecessary commands and improve clarity ([a18421a](https://github.com/rectitude-open/filament-system-settings/commit/a18421afa99f676be0198e95f26df55c7f1cbeb8))
+
 ## [1.0.1](https://github.com/rectitude-open/filament-system-settings/compare/v1.0.0...v1.0.1) (2025-05-18)
 
 
