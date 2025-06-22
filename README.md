@@ -5,6 +5,7 @@
 [![Tests](https://github.com/rectitude-open/filament-system-settings/actions/workflows/run-tests.yml/badge.svg)](https://github.com/rectitude-open/filament-system-settings/actions/workflows/run-tests.yml)
 [![PHPStan](https://img.shields.io/badge/PHPStan-level%205-brightgreen)](https://phpstan.org/)
 [![Total Downloads](https://img.shields.io/packagist/dt/rectitude-open/filament-system-settings.svg?style=flat-square)](https://packagist.org/packages/rectitude-open/filament-system-settings)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/rectitude-open/filament-system-settings/pulls)
 
 Filament System Settings is a user-friendly plugin that provides a comprehensive system settings page for your Filament admin panel, It includes several preset panels for managing application configuration, mail settings, security options, and more. 
 
@@ -38,8 +39,8 @@ This is the contents of the published config file:
 
 ```php
 return [
-    'system_settings' => RectitudeOpen\FilamentSystemSettings\Settings\SystemSettings::class,
-    'system_settings_page' => RectitudeOpen\FilamentSystemSettings\Pages\SystemSettingsPage::class,
+    'system_settings' => \RectitudeOpen\FilamentSystemSettings\Settings\SystemSettings::class,
+    'system_settings_page' => \RectitudeOpen\FilamentSystemSettings\Pages\SystemSettingsPage::class,
 ];
 ```
 
