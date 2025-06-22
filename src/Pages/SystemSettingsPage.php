@@ -55,8 +55,8 @@ class SystemSettingsPage extends SettingsPage
     {
         $arrTabs = [];
 
-        $arrTabs[] = Tabs\Tab::make('System Tab')
-            ->label(__('filament-system-settings::filament-system-settings.tab.system'))
+        $arrTabs[] = Tabs\Tab::make('Application Tab')
+            ->label(__('filament-system-settings::filament-system-settings.tab.application'))
             ->icon('heroicon-o-tv')
             ->schema(ApplicationForm::get());
 

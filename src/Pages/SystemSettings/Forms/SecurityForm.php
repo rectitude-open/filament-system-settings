@@ -13,22 +13,22 @@ class SecurityForm
     {
         return [
             TextInput::make('login_attempts_rate_limit')
-                ->label('Login Attempts Rate Limit')
+                ->label(__('filament-system-settings::filament-system-settings.security.login_attempts_rate_limit'))
                 ->numeric(),
             TextInput::make('login_attempts_lockout_window')
-                ->label('Login Attempts Lockout Window')
+                ->label(__('filament-system-settings::filament-system-settings.security.login_attempts_lockout_window'))
                 ->numeric()
                 ->helperText('in minutes'),
             TextInput::make('login_attempts_lockout_attempts')
-                ->label('Login Attempts Lockout Attempts')
+                ->label(__('filament-system-settings::filament-system-settings.security.login_attempts_lockout_attempts'))
                 ->numeric()
                 ->helperText('max attempts before lockout'),
             TextInput::make('login_attempts_lockout_duration')
-                ->label('Login Attempts Lockout Duration')
+                ->label(__('filament-system-settings::filament-system-settings.security.login_attempts_lockout_duration'))
                 ->numeric()
                 ->helperText('in minutes'),
             Toggle::make('enable_login_captcha')
-                ->label('Enable Login Captcha')
+                ->label(__('filament-system-settings::filament-system-settings.security.enable_login_captcha'))
                 ->inline(false),
         ];
     }

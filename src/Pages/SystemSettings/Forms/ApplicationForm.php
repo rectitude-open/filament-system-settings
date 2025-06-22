@@ -16,21 +16,21 @@ class ApplicationForm
         return [
             Grid::make()->schema([
                 TextInput::make('site_name')
-                    ->label('Site Name')
+                    ->label(__('filament-system-settings::filament-system-settings.application.site_name'))
                     ->autofocus()
                     ->required(),
                 TextInput::make('site_url')
                     ->label('Site URL'),
             ]),
             TextInput::make('site_title')
-                ->label('Site Title')
+                ->label(__('filament-system-settings::filament-system-settings.application.site_title'))
                 ->columnSpanFull(),
             Textarea::make('site_description')
-                ->label('Site Description')
+                ->label(__('filament-system-settings::filament-system-settings.application.site_description'))
                 ->columnSpanFull(),
             Grid::make()->schema([
                 FileUpload::make('site_logo')
-                    ->label('Site Logo')
+                    ->label(__('filament-system-settings::filament-system-settings.application.site_logo'))
                     ->image()
                     ->directory('assets')
                     ->visibility('public')
@@ -38,7 +38,7 @@ class ApplicationForm
                     ->imageEditor()
                     ->storeFileNamesIn('attachment_file_names'),
                 FileUpload::make('site_favicon')
-                    ->label('Site Favicon')
+                    ->label(__('filament-system-settings::filament-system-settings.application.site_favicon'))
                     ->image()
                     ->directory('assets')
                     ->visibility('public')

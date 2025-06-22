@@ -12,23 +12,23 @@ class MailForm
     {
         return [
             TextInput::make('mail_from_email')
-                ->label('From Email')
+                ->label(__('filament-system-settings::filament-system-settings.mail.from_email'))
                 ->maxLength(255),
             TextInput::make('mail_from_name')
-                ->label('From Name')
+                ->label(__('filament-system-settings::filament-system-settings.mail.from_name'))
                 ->maxLength(255),
             TextInput::make('mail_host')
-                ->label('Host')
+                ->label(__('filament-system-settings::filament-system-settings.mail.host'))
                 ->maxLength(255),
             TextInput::make('mail_port')
-                ->label('Port')
+                ->label(__('filament-system-settings::filament-system-settings.mail.port'))
                 ->numeric()
                 ->maxLength(5),
             TextInput::make('mail_username')
-                ->label('Username')
+                ->label(__('filament-system-settings::filament-system-settings.mail.username'))
                 ->maxLength(255),
             TextInput::make('mail_password')
-                ->label('Password')
+                ->label(__('filament-system-settings::filament-system-settings.mail.password'))
                 ->password()
                 ->maxLength(255),
         ];
