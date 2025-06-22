@@ -37,8 +37,7 @@ class FilamentSystemSettingsServiceProvider extends PackageServiceProvider
                 $command
                     ->publishConfigFile()
                     ->publishMigrations()
-                    ->askToRunMigrations()
-                    ->askToStarRepoOnGitHub('rectitude-open/filament-system-settings');
+                    ->askToRunMigrations();
             });
 
         $configFileName = $package->shortName();
@@ -88,7 +87,7 @@ class FilamentSystemSettingsServiceProvider extends PackageServiceProvider
         // }
 
         // Testing
-        Testable::mixin(new TestsFilamentSystemSettings);
+        // Testable::mixin(new TestsFilamentSystemSettings);
     }
 
     protected function getAssetPackageName(): ?string

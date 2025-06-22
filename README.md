@@ -13,6 +13,10 @@ The package is built on top of the [Filament Spatie Laravel Settings Plugin](htt
 
 This package is also a standalone part of a CMS project: [FilaPress](https://github.com/rectitude-open/filapress).
 
+Resource | Page | Cluster | Migration | Model | Config | View | Localization
+--- | --- | --- | --- | --- | --- | --- | ---
+❌ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅  
+
 
 ## Installation
 
@@ -89,7 +93,7 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 ## Credits
 
-- [Rectitude Open](https://github.com/rectitude-open)
+- [Aspirant Zhang](https://github.com/aspirantzhang)
 - [All Contributors](../../contributors)
 
 ## License
