@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.0](https://github.com/rectitude-open/filament-system-settings/compare/v1.1.0...v1.2.0) (2025-06-23)
+
+
+### Features
+
+* add instructions for publishing translations in README ([f21caf8](https://github.com/rectitude-open/filament-system-settings/commit/f21caf804f78152cf05bb6b06557a79ba1b8fbb1))
+* add more translations ([bc0e673](https://github.com/rectitude-open/filament-system-settings/commit/bc0e67366b4d85977aeae710b2c881f159fd6a3e))
+
 ## [1.1.0](https://github.com/rectitude-open/filament-system-settings/compare/v1.0.1...v1.1.0) (2025-06-22)
 
 
