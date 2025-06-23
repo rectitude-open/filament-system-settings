@@ -39,6 +39,12 @@ You can publish the config file with:
 php artisan vendor:publish --tag="filament-system-settings-config"
 ```
 
+Optionally, you can publish the translations using
+
+```bash
+php artisan vendor:publish --tag="filament-news-translations"
+```
+
 This is the contents of the published config file:
 
 ```php
