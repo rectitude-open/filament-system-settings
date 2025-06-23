@@ -12,6 +12,14 @@ return [
         'mail' => 'ایمیل',
         'security' => 'امنیت',
     ],
+    'application' => [
+        'site_name' => 'نام سایت',
+        'site_url' => 'آدرس سایت',
+        'site_title' => 'عنوان سایت',
+        'site_description' => 'توضیحات سایت',
+        'site_logo' => 'لوگوی سایت',
+        'site_favicon' => 'فاوآیکون سایت',
+    ],
     'mail' => [
         'from_email' => 'ایمیل فرستنده',
         'from_name' => 'نام فرستنده',

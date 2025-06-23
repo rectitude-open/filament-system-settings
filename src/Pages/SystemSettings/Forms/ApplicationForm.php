@@ -20,7 +20,7 @@ class ApplicationForm
                     ->autofocus()
                     ->required(),
                 TextInput::make('site_url')
-                    ->label('Site URL'),
+                    ->label(__('filament-system-settings::filament-system-settings.application.site_url')),
             ]),
             TextInput::make('site_title')
                 ->label(__('filament-system-settings::filament-system-settings.application.site_title'))

@@ -12,6 +12,14 @@ return [
         'mail' => 'Posta',
         'security' => 'Sicurezza',
     ],
+    'application' => [
+        'site_name' => 'Nome del sito',
+        'site_url' => 'URL del sito',
+        'site_title' => 'Titolo del sito',
+        'site_description' => 'Descrizione del sito',
+        'site_logo' => 'Logo del sito',
+        'site_favicon' => 'Favicon del sito',
+    ],
     'mail' => [
         'from_email' => 'Email mittente',
         'from_name' => 'Nome mittente',

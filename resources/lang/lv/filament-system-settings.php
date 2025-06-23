@@ -12,6 +12,14 @@ return [
         'mail' => 'Pasts',
         'security' => 'Drošība',
     ],
+    'application' => [
+        'site_name' => 'Vietnes nosaukums',
+        'site_url' => 'Vietnes URL',
+        'site_title' => 'Vietnes virsraksts',
+        'site_description' => 'Vietnes apraksts',
+        'site_logo' => 'Vietnes logotips',
+        'site_favicon' => 'Vietnes favicon',
+    ],
     'mail' => [
         'from_email' => 'Sūtītāja e-pasts',
         'from_name' => 'Sūtītāja vārds',

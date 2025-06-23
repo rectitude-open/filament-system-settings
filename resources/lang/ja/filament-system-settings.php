@@ -12,6 +12,14 @@ return [
         'mail' => 'メール',
         'security' => 'セキュリティ',
     ],
+    'application' => [
+        'site_name' => 'サイト名',
+        'site_url' => 'サイトURL',
+        'site_title' => 'サイトタイトル',
+        'site_description' => 'サイトの説明',
+        'site_logo' => 'サイトロゴ',
+        'site_favicon' => 'サイトファビコン',
+    ],
     'mail' => [
         'from_email' => '送信元メールアドレス',
         'from_name' => '送信者名',

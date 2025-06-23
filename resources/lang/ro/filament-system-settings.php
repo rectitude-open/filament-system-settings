@@ -12,6 +12,14 @@ return [
         'mail' => 'E-mail',
         'security' => 'Securitate',
     ],
+    'application' => [
+        'site_name' => 'Nume site',
+        'site_url' => 'URL site',
+        'site_title' => 'Titlu site',
+        'site_description' => 'Descriere site',
+        'site_logo' => 'Logo site',
+        'site_favicon' => 'Favicon site',
+    ],
     'mail' => [
         'from_email' => 'E-mail expeditor',
         'from_name' => 'Nume expeditor',

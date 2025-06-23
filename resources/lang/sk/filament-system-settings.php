@@ -12,6 +12,14 @@ return [
         'mail' => 'Mail',
         'security' => 'Bezpečnosť',
     ],
+    'application' => [
+        'site_name' => 'Názov stránky',
+        'site_url' => 'URL stránky',
+        'site_title' => 'Nadpis stránky',
+        'site_description' => 'Popis stránky',
+        'site_logo' => 'Logo stránky',
+        'site_favicon' => 'Favicon stránky',
+    ],
     'mail' => [
         'from_email' => 'E-mail odosielateľa',
         'from_name' => 'Meno odosielateľa',

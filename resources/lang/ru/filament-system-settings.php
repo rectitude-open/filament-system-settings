@@ -12,6 +12,14 @@ return [
         'mail' => 'Почта',
         'security' => 'Безопасность',
     ],
+    'application' => [
+        'site_name' => 'Название сайта',
+        'site_url' => 'URL сайта',
+        'site_title' => 'Заголовок сайта',
+        'site_description' => 'Описание сайта',
+        'site_logo' => 'Логотип сайта',
+        'site_favicon' => 'Favicon сайта',
+    ],
     'mail' => [
         'from_email' => 'Email отправителя',
         'from_name' => 'Имя отправителя',

@@ -12,6 +12,14 @@ return [
         'mail' => 'E-posta',
         'security' => 'Güvenlik',
     ],
+    'application' => [
+        'site_name' => 'Site Adı',
+        'site_url' => 'Site URL',
+        'site_title' => 'Site Başlığı',
+        'site_description' => 'Site Açıklaması',
+        'site_logo' => 'Site Logosu',
+        'site_favicon' => 'Site Favicon',
+    ],
     'mail' => [
         'from_email' => 'Gönderen E-posta',
         'from_name' => 'Gönderen Adı',

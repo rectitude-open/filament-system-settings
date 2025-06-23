@@ -27,4 +27,12 @@ return [
         'login_attempts_lockout_duration' => 'ماوەی قفلکردن',
         'enable_login_captcha' => 'چالاککردنی کابتچای چوونەژوورەوە',
     ],
+    'application' => [
+        'site_name' => 'ناوی ماڵپەڕ',
+        'site_url' => 'بەستەری ماڵپەڕ',
+        'site_title' => 'ناونیشانی ماڵپەڕ',
+        'site_description' => 'وەسفی ماڵپەڕ',
+        'site_logo' => 'شعاری ماڵپەڕ',
+        'site_favicon' => 'فایڤیکۆنی ماڵپەڕ',
+    ],
 ];

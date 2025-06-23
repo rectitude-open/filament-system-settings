@@ -27,4 +27,12 @@ return [
         'login_attempts_lockout_duration' => 'Demjimêra girtinê',
         'enable_login_captcha' => 'Çalakîkirina captcha ya têketinê',
     ],
+    'application' => [
+        'site_name' => 'Navê malperê',
+        'site_url' => 'URL malperê',
+        'site_title' => 'Sernavê malperê',
+        'site_description' => 'Terîfa malperê',
+        'site_logo' => 'Logoya malperê',
+        'site_favicon' => 'Favicon a malperê',
+    ],
 ];

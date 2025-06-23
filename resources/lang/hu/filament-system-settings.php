@@ -12,6 +12,14 @@ return [
         'mail' => 'Levelezés',
         'security' => 'Biztonság',
     ],
+    'application' => [
+        'site_name' => 'Webhely neve',
+        'site_url' => 'Webhely URL',
+        'site_title' => 'Webhely címe',
+        'site_description' => 'Webhely leírása',
+        'site_logo' => 'Webhely logója',
+        'site_favicon' => 'Webhely favicon',
+    ],
     'mail' => [
         'from_email' => 'Feladó e-mail címe',
         'from_name' => 'Feladó neve',

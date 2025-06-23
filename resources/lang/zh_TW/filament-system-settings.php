@@ -12,6 +12,14 @@ return [
         'mail' => '郵件',
         'security' => '安全',
     ],
+    'application' => [
+        'site_name' => '網站名稱',
+        'site_url' => '網站網址',
+        'site_title' => '網站標題',
+        'site_description' => '網站描述',
+        'site_logo' => '網站Logo',
+        'site_favicon' => '網站Favicon',
+    ],
     'mail' => [
         'from_email' => '寄件人信箱',
         'from_name' => '寄件人名稱',

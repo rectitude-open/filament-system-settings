@@ -27,4 +27,12 @@ return [
         'login_attempts_lockout_duration' => 'Արգելափակման տևողություն',
         'enable_login_captcha' => 'Միացնել մուտքի captcha-ն',
     ],
+    'application' => [
+        'site_name' => 'Կայքի անունը',
+        'site_url' => 'Կայքի հղումը',
+        'site_title' => 'Կայքի վերնագիրը',
+        'site_description' => 'Կայքի նկարագրությունը',
+        'site_logo' => 'Կայքի լոգոն',
+        'site_favicon' => 'Կայքի favicon',
+    ],
 ];

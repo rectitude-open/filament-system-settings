@@ -12,6 +12,14 @@ return [
         'mail' => 'Email',
         'security' => 'Siguria',
     ],
+    'application' => [
+        'site_name' => 'Emri i faqes',
+        'site_url' => 'URL e faqes',
+        'site_title' => 'Titulli i faqes',
+        'site_description' => 'Përshkrimi i faqes',
+        'site_logo' => 'Logo e faqes',
+        'site_favicon' => 'Favicon i faqes',
+    ],
     'mail' => [
         'from_email' => 'Email i dërguesit',
         'from_name' => 'Emri i dërguesit',

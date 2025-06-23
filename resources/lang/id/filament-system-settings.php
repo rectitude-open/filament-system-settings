@@ -12,6 +12,14 @@ return [
         'mail' => 'Email',
         'security' => 'Keamanan',
     ],
+    'application' => [
+        'site_name' => 'Nama Situs',
+        'site_url' => 'URL Situs',
+        'site_title' => 'Judul Situs',
+        'site_description' => 'Deskripsi Situs',
+        'site_logo' => 'Logo Situs',
+        'site_favicon' => 'Favicon Situs',
+    ],
     'mail' => [
         'from_email' => 'Email Pengirim',
         'from_name' => 'Nama Pengirim',

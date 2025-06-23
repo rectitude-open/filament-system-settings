@@ -12,6 +12,14 @@ return [
         'mail' => 'អ៊ីមែល',
         'security' => 'សុវត្ថិភាព',
     ],
+    'application' => [
+        'site_name' => 'ឈ្មោះវេបសាយ',
+        'site_url' => 'URL វេបសាយ',
+        'site_title' => 'ចំណងជើងវេបសាយ',
+        'site_description' => 'ការពិពណ៌នាវេបសាយ',
+        'site_logo' => 'រូបសញ្ញាវេបសាយ',
+        'site_favicon' => 'Favicon វេបសាយ',
+    ],
     'mail' => [
         'from_email' => 'អ៊ីមែលអ្នកផ្ញើ',
         'from_name' => 'ឈ្មោះអ្នកផ្ញើ',
