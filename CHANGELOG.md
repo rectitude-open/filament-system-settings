@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/rectitude-open/filament-system-settings/compare/v1.2.0...v1.3.0) (2025-06-24)
+
+
+### Features
+
+* remove site url field ([03356db](https://github.com/rectitude-open/filament-system-settings/commit/03356dbb9a55ae99493e7167cfeb2cc71906bf88))
+
 ## [1.2.0](https://github.com/rectitude-open/filament-system-settings/compare/v1.1.0...v1.2.0) (2025-06-23)
 
 
