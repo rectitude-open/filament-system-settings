@@ -14,7 +14,6 @@ return [
     ],
     'application' => [
         'site_name' => 'Webhely neve',
-        'site_url' => 'Webhely URL',
         'site_title' => 'Webhely címe',
         'site_description' => 'Webhely leírása',
         'site_logo' => 'Webhely logója',

@@ -14,7 +14,6 @@ return [
     ],
     'application' => [
         'site_name' => 'Název webu',
-        'site_url' => 'URL webu',
         'site_title' => 'Titulek webu',
         'site_description' => 'Popis webu',
         'site_logo' => 'Logo webu',

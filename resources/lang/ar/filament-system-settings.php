@@ -14,7 +14,6 @@ return [
     ],
     'application' => [
         'site_name' => 'اسم الموقع',
-        'site_url' => 'رابط الموقع',
         'site_title' => 'عنوان الموقع',
         'site_description' => 'وصف الموقع',
         'site_logo' => 'شعار الموقع',

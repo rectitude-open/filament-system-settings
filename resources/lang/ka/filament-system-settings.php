@@ -14,7 +14,6 @@ return [
     ],
     'application' => [
         'site_name' => 'საიტის სახელი',
-        'site_url' => 'საიტის ბმული',
         'site_title' => 'საიტის სათაური',
         'site_description' => 'საიტის აღწერა',
         'site_logo' => 'საიტის ლოგო',

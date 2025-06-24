@@ -29,7 +29,6 @@ return [
     ],
     'application' => [
         'site_name' => 'Navê malperê',
-        'site_url' => 'URL malperê',
         'site_title' => 'Sernavê malperê',
         'site_description' => 'Terîfa malperê',
         'site_logo' => 'Logoya malperê',

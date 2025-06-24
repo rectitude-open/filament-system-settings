@@ -14,7 +14,6 @@ return [
     ],
     'application' => [
         'site_name' => '网站名称',
-        'site_url' => '网站地址',
         'site_title' => '网站标题',
         'site_description' => '网站描述',
         'site_logo' => '网站Logo',

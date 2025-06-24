@@ -14,7 +14,6 @@ return [
     ],
     'application' => [
         'site_name' => '網站名稱',
-        'site_url' => '網站網址',
         'site_title' => '網站標題',
         'site_description' => '網站描述',
         'site_logo' => '網站Logo',

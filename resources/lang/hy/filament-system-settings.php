@@ -29,7 +29,6 @@ return [
     ],
     'application' => [
         'site_name' => 'Կայքի անունը',
-        'site_url' => 'Կայքի հղումը',
         'site_title' => 'Կայքի վերնագիրը',
         'site_description' => 'Կայքի նկարագրությունը',
         'site_logo' => 'Կայքի լոգոն',

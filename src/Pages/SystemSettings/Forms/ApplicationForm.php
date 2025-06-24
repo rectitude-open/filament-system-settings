@@ -14,14 +14,10 @@ class ApplicationForm
     public static function get()
     {
         return [
-            Grid::make()->schema([
-                TextInput::make('site_name')
-                    ->label(__('filament-system-settings::filament-system-settings.application.site_name'))
-                    ->autofocus()
-                    ->required(),
-                TextInput::make('site_url')
-                    ->label(__('filament-system-settings::filament-system-settings.application.site_url')),
-            ]),
+            TextInput::make('site_name')
+                ->label(__('filament-system-settings::filament-system-settings.application.site_name'))
+                ->autofocus()
+                ->required(),
             TextInput::make('site_title')
                 ->label(__('filament-system-settings::filament-system-settings.application.site_title'))
                 ->columnSpanFull(),

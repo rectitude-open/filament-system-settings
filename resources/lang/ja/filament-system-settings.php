@@ -14,7 +14,6 @@ return [
     ],
     'application' => [
         'site_name' => 'サイト名',
-        'site_url' => 'サイトURL',
         'site_title' => 'サイトタイトル',
         'site_description' => 'サイトの説明',
         'site_logo' => 'サイトロゴ',

@@ -14,7 +14,6 @@ return [
     ],
     'application' => [
         'site_name' => 'ឈ្មោះវេបសាយ',
-        'site_url' => 'URL វេបសាយ',
         'site_title' => 'ចំណងជើងវេបសាយ',
         'site_description' => 'ការពិពណ៌នាវេបសាយ',
         'site_logo' => 'រូបសញ្ញាវេបសាយ',

@@ -14,7 +14,6 @@ return [
     ],
     'application' => [
         'site_name' => 'Tên trang web',
-        'site_url' => 'URL trang web',
         'site_title' => 'Tiêu đề trang web',
         'site_description' => 'Mô tả trang web',
         'site_logo' => 'Logo trang web',

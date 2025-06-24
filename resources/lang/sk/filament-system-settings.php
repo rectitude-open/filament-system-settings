@@ -14,7 +14,6 @@ return [
     ],
     'application' => [
         'site_name' => 'Názov stránky',
-        'site_url' => 'URL stránky',
         'site_title' => 'Nadpis stránky',
         'site_description' => 'Popis stránky',
         'site_logo' => 'Logo stránky',

@@ -11,8 +11,6 @@ class SystemSettings extends Settings
 {
     public string $site_name;
 
-    public ?string $site_url;
-
     public ?string $site_title;
 
     public ?string $site_description;

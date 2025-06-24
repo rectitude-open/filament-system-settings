@@ -29,7 +29,6 @@ return [
     ],
     'application' => [
         'site_name' => 'ناوی ماڵپەڕ',
-        'site_url' => 'بەستەری ماڵپەڕ',
         'site_title' => 'ناونیشانی ماڵپەڕ',
         'site_description' => 'وەسفی ماڵپەڕ',
         'site_logo' => 'شعاری ماڵپەڕ',

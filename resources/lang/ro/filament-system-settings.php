@@ -14,7 +14,6 @@ return [
     ],
     'application' => [
         'site_name' => 'Nume site',
-        'site_url' => 'URL site',
         'site_title' => 'Titlu site',
         'site_description' => 'Descriere site',
         'site_logo' => 'Logo site',

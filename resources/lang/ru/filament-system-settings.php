@@ -14,7 +14,6 @@ return [
     ],
     'application' => [
         'site_name' => 'Название сайта',
-        'site_url' => 'URL сайта',
         'site_title' => 'Заголовок сайта',
         'site_description' => 'Описание сайта',
         'site_logo' => 'Логотип сайта',

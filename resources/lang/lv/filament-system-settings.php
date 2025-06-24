@@ -14,7 +14,6 @@ return [
     ],
     'application' => [
         'site_name' => 'Vietnes nosaukums',
-        'site_url' => 'Vietnes URL',
         'site_title' => 'Vietnes virsraksts',
         'site_description' => 'Vietnes apraksts',
         'site_logo' => 'Vietnes logotips',
