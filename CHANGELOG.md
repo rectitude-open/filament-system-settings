@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.1](https://github.com/rectitude-open/filament-system-settings/compare/v1.3.0...v1.3.1) (2026-01-05)
+
+
+### Miscellaneous Chores
+
+* **deps:** bump dependabot/fetch-metadata from 2.4.0 to 2.5.0 ([29caabb](https://github.com/rectitude-open/filament-system-settings/commit/29caabbdc763cc3ac5e23fc0e89e3b249945ec11))
+* **deps:** bump dependabot/fetch-metadata from 2.4.0 to 2.5.0 ([a22c62c](https://github.com/rectitude-open/filament-system-settings/commit/a22c62c56569e4f0751318717f2e6df948d5023f))
+
 ## [1.3.0](https://github.com/rectitude-open/filament-system-settings/compare/v1.2.0...v1.3.0) (2025-06-24)
 
 
